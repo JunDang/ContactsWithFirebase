@@ -1,0 +1,13 @@
+platform :ios, '10.0'
+use_frameworks!
+
+target 'ContactsFirebase' do
+
+    pod 'Firebase/Database'
+    pod 'Firebase/Auth'
+    pod 'Firebase/Storage'
+    pod 'Firebase/Core'
+    pod 'SwiftMessages'
+    pod 'SkyFloatingLabelTextField'
+
+end
